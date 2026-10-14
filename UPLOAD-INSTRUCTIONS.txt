@@ -1,3 +1,5 @@
-FIXED PORTFOLIO: The three Print & Outdoor Advertising images are embedded inside index.html.
-Upload ONLY index.html to your existing GitHub repository root, replacing the older index.html. Commit changes, wait for deployment and refresh your website (Ctrl+F5).
-No assets/portfolio image folder is required.
+IMAGE DISPLAY FIX — Pinnacle Promotions portfolio
+
+The transparent background of the roll-up banner and feather flags has been restored. All three pictures use the full-image fit (no cropping).
+
+On GitHub, replace the root index.html file in your portfolio repository with the index.html from this ZIP and commit the change. No separate image assets needed.
