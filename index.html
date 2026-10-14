@@ -101,6 +101,27 @@
 @media(max-width:760px){.hero-visual.portrait-showcase{height:470px;width:100%}.hero-portrait{height:460px}}
 @media(max-width:480px){.hero-visual.portrait-showcase{height:400px}.hero-portrait{height:390px}}
 
+
+/* Print and outdoor advertising portfolio */
+.print-showcase{margin-top:76px}
+.print-showcase-heading{display:flex;justify-content:space-between;align-items:end;gap:22px;margin-bottom:25px}
+.print-showcase-heading .eyebrow{color:var(--lime);letter-spacing:.15em;font-size:11px;font-weight:800}
+.print-showcase-heading h3{font-size:clamp(30px,3.7vw,48px);letter-spacing:-.05em;line-height:1.12;margin:12px 0}
+.print-showcase-heading p{color:#adb0bf;font-size:14px;line-height:1.8;max-width:440px;margin:0}
+.print-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.print-card{overflow:hidden;border-radius:15px;background:#171820;border:1px solid #303240;min-width:0}
+.print-card-picture{background:radial-gradient(circle at 50% 42%,#f1eff8,#bbc4d7);height:300px;display:flex;align-items:center;justify-content:center;padding:15px;overflow:hidden}
+.print-card-picture img{width:100%;height:100%;object-fit:contain;transition:transform .35s}
+.print-card:hover .print-card-picture img{transform:scale(1.04)}
+.print-card-picture.billboard img{object-fit:cover;border-radius:7px}
+.print-card-picture.flags{background:linear-gradient(135deg,#dee6f8,#ede7f6)}
+.print-card-info{padding:22px}
+.print-card-info .eyebrow{font-size:10px;letter-spacing:.1em;color:var(--lime)}
+.print-card-info h4{font-size:22px;letter-spacing:-.035em;line-height:1.2;margin:10px 0 12px}
+.print-card-info p{font-size:13px;line-height:1.8;color:#b4b6c0;margin:0}
+.print-card-info .project-pills{margin:19px 0 0}
+@media(max-width:900px){.print-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.print-showcase-heading{display:block}.print-showcase-heading p{margin-top:14px}}
+@media(max-width:600px){.print-gallery{grid-template-columns:1fr}.print-card-picture{height:310px}.print-showcase{margin-top:55px}}
 </style>
 </head>
 <body>
@@ -175,6 +196,14 @@
 </article>
 </div>
 </div>
+
+<div class="print-showcase" id="print-design">
+<div class="print-showcase-heading reveal"><div><span class="eyebrow">GRAPHIC DESIGN / BRAND APPLICATIONS</span><h3>Print &amp; Outdoor<br/>Advertising Design</h3></div><p>A collection of promotional design concepts for Pinnacle Promotions, applying a consistent visual identity across exhibition displays, large-format advertising and event signage.</p></div>
+<div class="print-gallery">
+<article class="print-card reveal"><div class="print-card-picture"><img src="assets/portfolio/roll-up-banner.webp" alt="Pinnacle Promotions roll-up banner design with colorful bird logo, headline and service highlights" loading="lazy" decoding="async"/></div><div class="print-card-info"><span class="eyebrow">01 / EXHIBITION DISPLAY</span><h4>Roll-Up Banner Design</h4><p>A portable promotional banner concept combining a bold headline, key services, clear iconography and vivid brand colors for an impactful presentation at events and exhibitions.</p><div class="project-pills"><span>Print Design</span><span>Display Branding</span><span>Visual Hierarchy</span></div></div></article>
+<article class="print-card reveal"><div class="print-card-picture billboard"><img src="assets/portfolio/billboard-design.webp" alt="Pinnacle Promotions large outdoor billboard design mockup against a blue sky" loading="lazy" decoding="async"/></div><div class="print-card-info"><span class="eyebrow">02 / OUTDOOR ADVERTISING</span><h4>Billboard Design</h4><p>A large-format billboard mockup focused on instant brand recognition, with a prominent logo, minimal messaging and energetic color accents designed for visibility at a distance.</p><div class="project-pills"><span>Billboard Design</span><span>Outdoor Media</span><span>Brand Awareness</span></div></div></article>
+<article class="print-card reveal"><div class="print-card-picture flags"><img src="assets/portfolio/feather-flags.webp" alt="Collection of five Pinnacle Promotions feather and rectangular event flag designs" loading="lazy" decoding="async"/></div><div class="print-card-info"><span class="eyebrow">03 / EVENT BRANDING</span><h4>Feather Flag Collection</h4><p>A coordinated set of flag design concepts using dynamic shapes, bright gradients and consistent logo placement to create a recognizable identity across outdoor events and promotional spaces.</p><div class="project-pills"><span>Flag Design</span><span>Event Signage</span><span>Brand Consistency</span></div></div></article>
+</div></div>
 </section>
 <section class="section shell values" id="approach"><div class="section-kicker reveal"><span>05 / HOW I THINK</span><span class="kicker-rule"></span></div><div class="values-layout reveal"><div><h2>Curiosity.<br/>Clarity.<br/><em>Craft.</em></h2></div><div class="values-list"><div><span>01</span><h3>Understand first.</h3><p>Good work starts with asking better questions and understanding the real problem.</p></div><div><span>02</span><h3>Make it meaningful.</h3><p>Design and technology should work together for a clear purpose.</p></div><div><span>03</span><h3>Keep evolving.</h3><p>Stay curious, experiment often and never stop learning.</p></div></div></div></section>
 <section class="section shell contact-section" id="contact">
