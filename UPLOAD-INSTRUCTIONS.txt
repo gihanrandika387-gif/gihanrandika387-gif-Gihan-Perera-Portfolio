@@ -1,0 +1,3 @@
+FIXED PORTFOLIO: The three Print & Outdoor Advertising images are embedded inside index.html.
+Upload ONLY index.html to your existing GitHub repository root, replacing the older index.html. Commit changes, wait for deployment and refresh your website (Ctrl+F5).
+No assets/portfolio image folder is required.
