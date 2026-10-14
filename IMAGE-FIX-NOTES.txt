@@ -1,0 +1,1 @@
+Cards mapped explicitly: 01 Roll-Up Banner, 02 Billboard, 03 Feather Flags. All 3 images embedded in index.html, with light background composited to prevent black transparency artifacts. Upload index.html to your GitHub repo and redeploy.
