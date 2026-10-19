@@ -1,0 +1,1 @@
+Added all eight LinkedIn recommendations supplied in screenshots, including reviewer photos cropped from the screenshots, dates, roles, exact recommendation text, responsive expandable cards, navigation anchor, and a source link to the LinkedIn recommendation page. Edit recommendation text in index.html.
