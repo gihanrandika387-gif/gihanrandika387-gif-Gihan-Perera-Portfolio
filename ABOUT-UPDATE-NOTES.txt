@@ -1,1 +1,1 @@
-The original homepage portrait and existing portfolio template have been preserved. Your new black-and-white portrait appears ONLY in About Me, beside the Message from Me.
+Fixed About Me portrait: the photograph is now embedded directly in index.html, so it works without a separate image asset. Original homepage portrait and site template are unchanged.
