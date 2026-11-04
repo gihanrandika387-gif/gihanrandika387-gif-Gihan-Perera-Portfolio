@@ -1,0 +1,4 @@
+FIXED: All five corporate images are embedded in root index.html.
+No image folder is needed for the deployed webpage.
+Click-to-view full-size images uses an accessible dialog.
+Upload extracted files to repo ROOT and redeploy.
