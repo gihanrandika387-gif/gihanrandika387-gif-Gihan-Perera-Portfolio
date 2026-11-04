@@ -1,0 +1,17 @@
+CORPORATE PRINT & PUBLICATIONS — UPDATED DESCRIPTIONS
+===================================================
+
+The existing print and outdoor display cards (01–03) remain unchanged.
+Added / refreshed detailed portfolio descriptions and three skill tags for:
+  04 — Calendar Design
+  05 — Magazine Design
+  06 — eBook Design
+  07 — Business Card Design
+  08 — Corporate Stationery & Marketing Materials
+
+Presentation: responsive two-column corporate gallery on larger screens, one column on narrow screens. Images live in assets/print-corporate/. The page includes its existing fonts, styles, scripts and other images.
+
+TO PUBLISH ON GITHUB/VERCEL
+Upload index.html, vercel.json and the assets folder TOGETHER, keeping paths intact. Other original files can also be kept. Alternatively upload the separately supplied Gihan_Perera_Portfolio_Full_Code_Standalone.html as index.html if you prefer a SINGLE self-contained HTML file.
+
+IMPORTANT: The new images are illustrative concept mockups, not evidence of past commissioned work. Replace them with your own finished work when ready.

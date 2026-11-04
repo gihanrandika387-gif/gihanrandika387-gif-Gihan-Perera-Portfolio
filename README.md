@@ -28,3 +28,23 @@ This is the **entire updated portfolio**, with all portfolio illustrations and t
 - Responsive adjustments for desktop and mobile.
 
 This is a **portfolio front-end**, not the proprietary management-system source code. The live management system and its customer records are not part of this package. Confirm the client's permission to publicly use screenshots/branding before publishing.
+
+
+## Corporate print & publication showcase (November 2026 update)
+
+The **Print & Outdoor Advertising Design** collection now has an additional
+**Corporate Print & Publications** subsection (`index.html#corporate-design`).
+It showcases calendar design, corporate magazines, eBooks/PDF publications,
+business cards, stationery, brochures, company profiles, folders, ID cards,
+and other branded materials.
+
+Images are stored in `assets/print-corporate/` as optimized WebP files. These
+are **illustrative AI-assisted concept mockups** based on the portfolio's
+existing visual direction; **they are not evidence of completed client
+projects**. Replace each with a photo of your actual work when available.
+Image sources are relative file paths in `index.html`, so **deploy the full
+folder**, including `assets`, when uploading to Vercel or another web host.
+
+To replace a mockup, export a WebP with the same filename and overwrite it.
+The corporate mockups open at full size when clicked; all work on desktop and
+mobile with no extra dependencies.
