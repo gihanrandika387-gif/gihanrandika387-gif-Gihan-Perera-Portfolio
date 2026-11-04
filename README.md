@@ -1,47 +1,30 @@
-# Gihan Shevon Perera — Portfolio | FINAL IMAGE FIX
+# Gihan Perera — Portfolio Website (Final GitHub Release)
 
-## What was fixed
+A complete, ready-to-deploy static portfolio website, including the existing development projects, the Print & Outdoor Advertising collection, and all five Corporate Print & Publications projects.
 
-The corporate showcase images previously used relative URLs such as
-`assets/print-corporate/calendar-mockup.webp`. Those images could appear
-blank after deployment if the `assets` folder was not uploaded to the
-exact correct directory. The final `index.html` now embeds **all five**
-corporate mockups directly in the HTML. Every image is visible even if
-the `index.html` file is deployed alone, without an `assets` directory.
+## Install / publish via GitHub
 
-Clicking any of the five images opens a full-size viewer. Works without
-image server requests. The website retains all original project work,
-updated corporate descriptions, desktop and mobile styles.
+1. Extract this ZIP on your computer.
+2. Open your **existing portfolio repository** on GitHub and choose **Add file → Upload files**.
+3. Upload the files inside the extracted folder, retaining `index.html`, `vercel.json`, `.gitignore`, `README.md` and the `assets` folder at the **repository root**. Replace existing files with the same names.
+4. Commit changes to the branch connected to your Vercel deployment.
+5. In Vercel, verify the new deployment is ready; hard-refresh the website (`Ctrl + Shift + R`).
 
-## Upload to your existing GitHub repository
+**Important:** Do not upload the ZIP file itself to GitHub as a website source, and do not place `index.html` inside a subfolder. Vercel should use the root folder as the project's root directory.
 
-1. Unzip this package on your computer.
-2. Open the extracted folder and upload its **contents** to your GitHub
-   repository root, not the ZIP and not a nested parent folder.
-3. Confirm you can see `index.html` at the top level of your repository.
-4. Commit the files. Vercel can redeploy this static site from GitHub;
-   for GitHub Pages, set Pages source to Deploy from a branch (main / root).
-5. Hard-refresh your website (Ctrl+Shift+R, or test in an incognito tab)
-   if your browser still shows an earlier cached deployment.
+## Included
 
-The `assets/print-corporate/` folder contains editable copies of the mockups,
-but **it is not required for viewing the images**.
+- `index.html`: the complete self-contained portfolio website, including the five embedded corporate mockup images, CSS and JavaScript.
+- `assets/print-corporate/`: optional separate WebP versions of the same concept images, included for source management and a JavaScript-free fallback for opening images.
+- `vercel.json`: static site deployment configuration.
+- `.gitignore`: repository ignore rules.
 
-## Updating the images later
+## Gallery improvements
 
-Replace one or more `.webp` images in `assets/print-corporate/` with your
-real design work, keeping the same filenames. Run `python tools/refresh_images.py`
-once to refresh the image data embedded in `index.html`, then commit the
-changed `index.html`. Python 3 is sufficient; no extra packages needed.
+- All 8 print and corporate projects have their descriptions and tags.
+- Corporate gallery maximum width prevents excessive enlargement of the supplied mockups.
+- Consistent two-column cards on desktop and one-column cards on small screens, aligned card text and pill tags.
+- Embedded images prevent missing-file problems on deployment.
+- Accessible image preview modal opens without requesting the separate image files.
 
-## Contents
-
-- `index.html` — entire website, styles, scripts and embedded design images.
-- `assets/print-corporate/` — editable WebP images (source copies).
-- `tools/refresh_images.py` — optional image replacement helper.
-- `vercel.json` — deployment configuration.
-- `README.md` — this guide.
-
-Note: Corporate designs are illustrative concept mockups, not documented
-completed client commissions. Replace them with actual portfolio examples
-as appropriate.
+**Image quality note:** The mockups are illustrative images generated as concepts. The layout now avoids unnecessarily upscaling their original raster detail; replacing them with higher-resolution original artwork is the way to improve text-level sharpness further.
