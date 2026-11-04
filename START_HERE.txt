@@ -1,0 +1,1 @@
+Upload index.html, vercel.json and .gitignore (and optionally README.md) into the ROOT of your GitHub repository. All website images are embedded in index.html, so no assets folder is needed.

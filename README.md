@@ -1,30 +1,29 @@
-# Gihan Perera — Portfolio Website (Final GitHub Release)
+# Gihan Perera | Updated Portfolio — High-Resolution Corporate Mockups
 
-A complete, ready-to-deploy static portfolio website, including the existing development projects, the Print & Outdoor Advertising collection, and all five Corporate Print & Publications projects.
+This is the complete GitHub/Vercel-ready portfolio code, including the existing development projects and Print & Outdoor Advertising section.
 
-## Install / publish via GitHub
+## New in this version
 
-1. Extract this ZIP on your computer.
-2. Open your **existing portfolio repository** on GitHub and choose **Add file → Upload files**.
-3. Upload the files inside the extracted folder, retaining `index.html`, `vercel.json`, `.gitignore`, `README.md` and the `assets` folder at the **repository root**. Replace existing files with the same names.
-4. Commit changes to the branch connected to your Vercel deployment.
-5. In Vercel, verify the new deployment is ready; hard-refresh the website (`Ctrl + Shift + R`).
+The five Corporate Print & Publications project images have been replaced with the **five high-resolution PNGs supplied on 4 November 2026**:
 
-**Important:** Do not upload the ZIP file itself to GitHub as a website source, and do not place `index.html` inside a subfolder. Vercel should use the root folder as the project's root directory.
+1. Calendar Design
+2. Magazine Design
+3. eBook Design
+4. Business Card Design
+5. Corporate Stationery & Marketing Materials
 
-## Included
+Each mockup is shown in full without cropping. The gallery keeps the same layout and descriptions, improves card alignment, and is responsive on mobile.
 
-- `index.html`: the complete self-contained portfolio website, including the five embedded corporate mockup images, CSS and JavaScript.
-- `assets/print-corporate/`: optional separate WebP versions of the same concept images, included for source management and a JavaScript-free fallback for opening images.
-- `vercel.json`: static site deployment configuration.
-- `.gitignore`: repository ignore rules.
+The website embeds high-quality, full-dimension WebP copies directly into `index.html` so the gallery still loads even when an external asset URL is unavailable. Matching WebP images are also in `assets/print-corporate/`, and the *original PNGs* are in `assets/print-corporate/original-png/` so you can use or replace them later.
 
-## Gallery improvements
+Generated mockup images are **portfolio concepts**, not verified client deliverables; check small illustrative text before using in production branding.
 
-- All 8 print and corporate projects have their descriptions and tags.
-- Corporate gallery maximum width prevents excessive enlargement of the supplied mockups.
-- Consistent two-column cards on desktop and one-column cards on small screens, aligned card text and pill tags.
-- Embedded images prevent missing-file problems on deployment.
-- Accessible image preview modal opens without requesting the separate image files.
+## Publish to GitHub and Vercel
 
-**Image quality note:** The mockups are illustrative images generated as concepts. The layout now avoids unnecessarily upscaling their original raster detail; replacing them with higher-resolution original artwork is the way to improve text-level sharpness further.
+1. Download and extract `Gihan_Perera_Portfolio_NEW_IMAGES_FINAL_GITHUB.zip`.
+2. In your GitHub portfolio repository, choose **Add file → Upload files**.
+3. Select everything **inside** the extracted folder (do not upload the ZIP itself). Keep `index.html`, `vercel.json`, and `assets/` in the repository root.
+4. Commit the changes on the branch used for your website.
+5. Let Vercel deploy. Reload the live page using **Ctrl+Shift+R** to bypass old cached files.
+
+No build tools or third-party image hosting are required.
